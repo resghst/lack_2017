@@ -547,6 +547,26 @@ th , td{
   margin: 0;
 }
 
+#shopmodal_14 img{
+  width: 390px;
+  height: 400px;
+}
+
+#shopmodal_15 img{
+  width: 390px;
+  height: 400px;
+}
+
+#singermodal_17 img{
+  width: 390px;
+  height: 400px;
+}
+
+#singermodal_17 .twelve.wide.column p{
+  margin: 0;
+}
+
+
 .content .header{
   font-family: 'Noto Sans TC', sans-serif !important;
   font-size: 18px !important;

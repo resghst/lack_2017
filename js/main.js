@@ -3,8 +3,8 @@ $(document).ready(function() {
   $('#navbar').addClass('animated fadeIn');
   $(window).scroll(function() {
     var scrollPosition = $(window).scrollTop();
-    console.log("scrollPosition"+scrollPosition);
-    if (scrollPosition >= 500 ) {
+    //console.log("scrollPosition"+scrollPosition);
+    if (scrollPosition >= 600 ) {
       $('#topicAni').addClass('animated fadeIn');
     }
     if (scrollPosition >= 150 ) {
@@ -129,6 +129,10 @@ $(document).ready(function() {
   $('#singercard_17').click(function(){
     $('#singermodal_17').modal('show');
   });
+  
+  $('#singercard_18').click(function(){
+    $('#singermodal_18').modal('show');
+  });
 
   $('#shopcard_01').click(function(){
     $('#shopmodal_01').modal('show');
@@ -182,13 +186,13 @@ $(document).ready(function() {
     $('#shopmodal_13').modal('show');
   });
 
-  // $('#shopcard_14').click(function(){
-  //   $('#shopmodal_14').modal('show');
-  // });
+  $('#shopcard_14').click(function(){
+    $('#shopmodal_14').modal('show');
+  });
 
-  // $('#shopcard_15').click(function(){
-  //   $('#shopmodal_15').modal('show');
-  // });
+  $('#shopcard_15').click(function(){
+    $('#shopmodal_15').modal('show');
+  });
 
 
 
